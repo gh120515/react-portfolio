@@ -11,14 +11,13 @@ export default function About() {
             className="pfp"
             alt="Lauren's profile pic"
           />
-
-          <h1>Lauren Cho</h1>
-            <p>A fledgling web developer and bird appreciator.</p>
+            
 
           <h1>About Me</h1>
             <p>
               Hi, I'm Lauren! I'm an Australia-based full-stack web-developer ready to make your website stylish and accessible.
             </p>
+            <p>I'm a fledgling web developer and bird appreciator.</p>
         
       </div>
     </main>

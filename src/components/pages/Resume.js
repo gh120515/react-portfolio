@@ -9,11 +9,14 @@ export default function Resume() {
         Downloadable resume coming soon!
         </p>
 
-        <button type="button" class="btn btn-info">
-            Download (coming soon)
-        </button>
-    
-      <div class="card">
+        <div class="center">
+          <button type="button" class="btn btn-info">
+              Download (coming soon)
+          </button>
+        </div>
+
+      <div class="center">
+        <div class="card">
         <div class="card-header">
           Featured skills
         </div>
@@ -31,6 +34,7 @@ export default function Resume() {
           <li class="list-group-item">React & MERN</li>
           <li class="list-group-item">State</li>
         </ul>
+      </div>
       </div>
 
     </div>

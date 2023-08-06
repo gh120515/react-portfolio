@@ -11,6 +11,7 @@
 # testing
 /coverage
 /test.html
+/todo.md
 
 # production
 /build

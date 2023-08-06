@@ -5,7 +5,6 @@ import DayJS from 'react-dayjs';
 
 export default function Footer() {
     const date = dayjs();
-    console.log(date);
     return (
         <footer>
             <div>

@@ -12,27 +12,27 @@
 
 /* navbar */
 
-.nav {
+.navbar {
     background-color: var(--maincolor);
-    
 }
 
-.nav-link-c {
-    color: var(--headingcolor);
+.name {
+    padding: 0.5rem;
+    font-size: 1.75rem;
+    font-family: monaco;
 }
 
-/* sidebar */
-
-.sidenav a:hover {
-    color: var(--mainhover)
-}
-
-.pfp {
-    scale: 80%;
-    border-radius: 30px;
+.nav-item {
+    font-family: monaco;
 }
 
 /* main & body of content */
+.pfp {
+    scale: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h1 {
     padding: 0.5em;
@@ -58,6 +58,9 @@ body {
 	background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A );
 	background-size: 100%;
 	background-repeat: no-repeat;
+    margin: 0;
+	font-size: 1.15rem;
+	line-height: 1.4em;
 }
 
 body:before{
@@ -78,13 +81,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-	margin: 0;
-	font-size: 1.15rem;
-	line-height: 1.4em;
-}
-
-
 main {
 	background-color: #f7f7f7;
 	padding: 20px;
@@ -102,6 +98,13 @@ main {
 
 .cardlist {
     width: 18rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Animations */
@@ -204,16 +207,6 @@ footer {
     font-size: 0.7em;
     text-align: center;
     margin: 40px;
-}
-
-/* hide nav bar for desktop/tablet sized screens */
-nav{
-    display: none;
-}
-
-nav .sidenavlinks-mobile{
-    display: flex;
-    align-content: column;
 }
 
 /* Responsive layouts for smaller screen sizes */
