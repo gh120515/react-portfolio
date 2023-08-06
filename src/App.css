@@ -262,9 +262,6 @@ footer {
         color: var(--headingcolor);
     }
 
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-
     .card{
         max-width: 80%;
     }
