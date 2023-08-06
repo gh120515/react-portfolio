@@ -33,7 +33,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               aria-current="page" 
               href="#portfolio"
               onClick={() => handlePageChange('Portfolio')}
-              >Resume</a>
+              >Portfolio</a>
             </li>
             <li class="nav-item">
               <a className=
@@ -41,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               aria-current="page" 
               href="#contact"
               onClick={() => handlePageChange('Contact')}
-              >Resume</a>
+              >Contact</a>
             </li>
           </ul>
         </div>

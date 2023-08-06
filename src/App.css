@@ -107,6 +107,12 @@ main {
     text-align: center;
 }
 
+.icons {
+  width: 1.5rem;
+  margin: 0.25rem;
+  /* color: var(--maincolor); - doesn't work with FA icons*/
+}
+
 /* Animations */
 
 article {
