@@ -1,6 +1,5 @@
 // src/components/About.js
 import React from 'react';
-import pfp from './public/sample.png';
 
 export default function About() {
   return (
@@ -8,7 +7,7 @@ export default function About() {
       <div>
 
         <img
-            src={pfp}
+            src='/images/sample.png'
             className="pfp"
             alt="Lauren's profile pic"
           />
