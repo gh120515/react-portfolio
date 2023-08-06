@@ -34,6 +34,10 @@
     margin-right: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
     padding: 0.5em;
     font-family: monaco;
@@ -140,10 +144,15 @@ article {
   .card {
     max-width: 300px;
     margin: 10px;
+    border-radius: 25px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     transition: transform 200ms;
   } 
+
+  .img {
+    border-radius: 5px;
+  }
 
   .card:hover{
     transform: scale(1.03);
@@ -160,9 +169,14 @@ article {
   .card .text > button {
     background: var(--button);
     border: 0;
-    color: white;
+    color: white; 
+    /* doesn't seem to work with React */
     padding: 5px;
     width: 100%;
+    }
+
+    .linkcolour {
+      color: white;
     }
 
   .card:nth-child(1) {

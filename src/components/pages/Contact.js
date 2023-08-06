@@ -1,24 +1,77 @@
 import React from 'react';
+import { useState } from 'react';
 
 export default function Contact() {
+    const [inputValue, setInputValue] = useState('');
+    const [inputError, setInputError] = useState(null);
+
+    function handleInputChange(event) {
+        const value = event.target.value;
+        setInputValue(value);
+    
+        if (!value) {
+          setInputError('All fields must be completed.');
+        } else {
+          setInputError(null);
+        }
+      }
+
+    function handleSubmit(event) {
+        event.preventDefault();
+        if (!inputValue) {
+        // submit form
+        } else {
+        setInputError('All fields must be completed.');
+        }
+    }
+    
   return (
     <main>
-        <div>
-        <h1>Contact Page</h1>
-        <p>
-            Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-            molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-            magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-            efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-            mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-            posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-            faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-            ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-            dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-            rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
-        </div>
+        <section>
+            <h1 class="fadein-f" id="contact">Contact</h1>
+            <div class="container fadein-s">
+            <form onSubmit={handleSubmit}>
+            
+                <label for="name">Name</label>
+                <input 
+                    type="text" 
+                    id="input-name" 
+                    name="name" 
+                    placeholder="Your first name.."
+                    value={inputValue}
+                    onChange={handleInputChange}
+                ></input>
+
+                <label for="email">Email</label>
+                <input 
+                    type="text" 
+                    id="input-email" 
+                    name="email" 
+                    placeholder="Your email.."
+                    value={inputValue}
+                    onChange={handleInputChange}
+                ></input>
+
+                <label for="email">Subject</label>
+                <input 
+                    type="text" 
+                    id="input-subject" 
+                    name="subject" 
+                    placeholder="Write your query..."
+                    style={{height: '200px'}}
+                    value={inputValue}
+                    onChange={handleInputChange}
+                ></input>
+
+                {inputError && <div style={{ color: 'red' }}>{inputError}</div>}
+                {/* <input type="submit" value="Submit"></input> */}
+                <button type="button" value="Submit">
+                    Submit
+                </button>
+            
+            </form>
+            </div>
+        </section>
     </main>
   );
 }
