@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Lauren's Full Stack Web Portfolio</title>
+</head>
+
+<body>
+
+<aside>
+    <div class="sidenav">
+
+        <div class="sideprofile">
+            <img class="pfp" src="./assets/img/sample.png" alt="Lauren's profile picture">
+            <h2>Lauren Cho</h2>
+            <p>A fledgling web developer and bird appreciator.</p>
+        </div>
+
+        <div class="sidenavlinks">
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Porfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </div>
+</aside>
+
+<!-- sidebar -->
+<nav>
+    <div class="mobile">
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Porfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+
+<main>
+
+    <h1 class="fadein-f">Lauren's Full Stack Web Portfolio</h1>
+
+    <section>
+        <h2 class="fadein-f" id="about">About Me</h2>
+            <div class="indent">
+                <p class="indent fadein-s">Hi, I'm Lauren! I'm an Australia-based web-developer ready to make your website stylish and accessible.</p>
+            </div>
+    </section>
+    
+    <hr class="divider">
+  
+    <section>
+        <!-- all images are placeholders -->
+        <h2 class="fadein-f" id="services">Services</h2>
+            <p class="indent fadein-s"> My past works & selections of services (not limited to those listed) offered are as below. Clicking on a button will take you to the relevant section in my Portfolio.</p>
+        <div class="cards">
+          
+        <article class="card">
+            <img src="./assets/img/24m.jpeg" alt="Sample photo">
+        <div class="text">
+            <h3>HTML</h3>
+            <p>Click on the button to view a sample of my work on HTML.</p>
+            <button onclick="window.location.href='#work-html'">Explore</button>
+        </div>
+        </article>
+
+        <article class="card">
+            <img src="./assets/img/25m.jpeg" alt="Sample photo">
+            <div class="text">
+              <h3>CSS</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <button>Explore</button>
+            </div>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/15l.jpeg" alt="Sample photo">
+            <div class="text">
+              <h3>JavaScript</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <button>Explore</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/16l.jpeg" alt="Sample photo">
+            <div class="text">
+              <h3>API</h3>
+              <p>Turpis cursus in hac habitasse platea dictumst quisque sagittis.</p>
+              <button>Explore</button>
+            </div>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/22l.jpeg" alt="Sample photo">
+            <div class="text">
+              <h3>MySQL</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <button>Explore</button>
+            </div>
+        </article>
+
+        </div>
+
+    </section>
+
+    <hr class="divider">
+
+    <section class="portfolio">
+        <h2 class="fadein-f" id="portfolio">Portfolio</h2>
+        <!-- placeholder cards -->
+        <p class="fadein-s">Click on the image of each card to visit the project.</p>
+        <div class="cards">
+            <article class="card" id="work-html">
+              <a href="https://gh120515.github.io/prework-study-guide/">
+                <img src="./assets/img/pwsg.png" alt="Snippet of my first HTML page">
+                </a>
+            <div class="text">
+                <h3>Prework Study Guide</h3>
+            </div>
+            </article>
+          
+          <!-- Note: only the 1st box of sections Services/Portfolio functional; more to be added after building more projects -->
+            <article class="card" id="">
+              <a href="https://renemalingre.github.io/Whiskers-of-Zen/">
+                <img src="./assets/img/woz.png" alt="Snippet of my first Group Project, Whiskers of Zen">
+                </a>
+            <div class="text">
+                <h3>Whiskers of Zen</h3>
+                <p>A dog & cat image generator for lowering your stress.</p>
+            </div>
+            </article>   
+
+            <article class="card" id="">
+                <a href="https://group-5-project-2-a67992c3b25e.herokuapp.com/">
+                  <img src="./assets/img/eventify.png" alt="">
+                  </a>
+              <div class="text">
+                  <h3>Eventify</h3>
+                  <p>A event meetup & organisation webpage to host & discover events.</p>
+              </div>
+            </article>
+  
+            <article class="card" id="">
+              <a href=""><img src="./assets/img/23m.jpeg" alt=""></a>
+                <div class="text">
+                  <h3>Work 4</h3>
+                </div>
+            </article>
+
+            <article class="card" id="">
+              <a href="">
+                <img src="./assets/img/24m.jpeg" alt=""></a>
+                <div class="text">
+                    <h3>Work 5</h3>
+                </div>
+              </article>
+
+    </section>    
+
+    <hr class="divider">
+    
+    <section>
+        <h2 class="fadein-f" id="contact">Contact</h2>
+        <div class="container fadein-s">
+          <form action="action_page.php">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="subject">Subject</label>
+            <textarea type="text" id="subject" name="subject" placeholder="Write your query..." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+    </section>    
+    
+</main>
+
+<!-- TODO: add jump to top button using scripts after JS course -->
+
+<footer>
+    <div>
+        <p>Website made by Lauren Cho ©  2023</p>
+        <!-- To replace with JS  getFullYear-->
+    </div>
+</footer>
+
+</body>
+
+</html>
