@@ -7,7 +7,7 @@ export default function About() {
       <div>
 
         <img
-            src='/images/sample.png'
+            src='./images/sample.png'
             className="pfp"
             alt="Lauren's profile pic"
           />

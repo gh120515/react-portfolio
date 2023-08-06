@@ -20,7 +20,7 @@ export default function Portfolio() {
         <article class="card">
           <a href="https://renemalingre.github.io/Whiskers-of-Zen/">
             <img
-              src='/images/woz.png'
+              src='./images/woz.png'
               className="img"
               alt="Snippet of my first Group Project, Whiskers of Zen"
             />
@@ -39,7 +39,7 @@ export default function Portfolio() {
         <article class="card">
           <a href="https://group-5-project-2-a67992c3b25e.herokuapp.com/">
             <img
-              src='/images/eventify.png'
+              src='./images/eventify.png'
               className="img"
               alt="Snippet of my second Group Project, Eventify"
             />
@@ -60,7 +60,7 @@ export default function Portfolio() {
         <article class="card">
           <a href="https://gh120515-pwa-text-editor-3bfc0f3c0d5b.herokuapp.com/">
             <img
-              src='/images/jate.png'
+              src='./images/jate.png'
               className="img"
               alt="text editor app"
             />
@@ -81,7 +81,7 @@ export default function Portfolio() {
         <article class="card">
           <a href="https://gh120515.github.io/weather-dashboard-app/">
             <img
-              src='/images/weather.png'
+              src='./images/weather.png'
               className="img"
               alt="weather app"
             />
@@ -102,7 +102,7 @@ export default function Portfolio() {
         <article class="card">
           <a href="https://drive.google.com/file/d/1PEyD-0p671BTedvW3UFJ3aibHdkqrGOI/view">
             <img
-              src='/images/snsapi.png'
+              src='./images/snsapi.png'
               className="img"
               alt="screenshot of backend of a social media app"
             />
@@ -123,7 +123,7 @@ export default function Portfolio() {
         <article class="card">
           <a href="https://drive.google.com/file/d/1-p3R-MD7fhIpPmZfMyJTWtXFjUtA1cv2/view">
             <img
-              src='/images/ecommerce.png'
+              src='./images/ecommerce.png'
               className="img"
               alt="screenshot of backend of e-commerce app"
             />
