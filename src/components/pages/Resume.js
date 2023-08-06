@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function Resume() {
   return (
+    <main>
     <div>
       <h1>Resume</h1>
         <p>
         Downloadable resume coming soon!
         </p>
 
-        <button type="button" class="btn btn-info"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        <button type="button" class="btn btn-info">
             Download (coming soon)
         </button>
     
@@ -34,5 +34,6 @@ export default function Resume() {
       </div>
 
     </div>
+    </main>
   );
 }
