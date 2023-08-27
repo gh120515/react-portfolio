@@ -17,6 +17,27 @@ export default function Portfolio() {
 
       <div class="cards">
 
+      <article class="card">
+          <a href="https://su-bakery-v1-9252c425e38d.herokuapp.com/">
+            <img
+              src='./images/bakery.png'
+              className="img"
+              alt="screenshot of a bakery website"
+            />
+          </a>
+        <div class="text">
+            <h3>Bakery Online Webpage</h3>
+            <p>A MERN Stack Webpage built based on a real-life family business.</p>
+      
+            <button>
+              <a href="https://github.com/gh120515/local-bakery-online" class="linkcolour">
+                GitHub
+                </a>
+            </button>
+            
+        </div>
+        </article>
+
         <article class="card">
           <a href="https://renemalingre.github.io/Whiskers-of-Zen/">
             <img
@@ -99,26 +120,6 @@ export default function Portfolio() {
         </div>
         </article>
 
-        <article class="card">
-          <a href="https://drive.google.com/file/d/1PEyD-0p671BTedvW3UFJ3aibHdkqrGOI/view">
-            <img
-              src='./images/snsapi.png'
-              className="img"
-              alt="screenshot of backend of a social media app"
-            />
-          </a>
-        <div class="text">
-            <h3>E-Commerce Backend</h3>
-            <p>JavaScript based app managing the back-end API of a social media website, using MongoDB to manage a NoSQL-based database. (Video demo only, no deployed app)</p>
-      
-            <button>
-              <a href="https://github.com/gh120515/sns-api" class="linkcolour">
-                GitHub
-                </a>
-            </button>
-            
-        </div>
-        </article>
 
         <article class="card">
           <a href="https://drive.google.com/file/d/1-p3R-MD7fhIpPmZfMyJTWtXFjUtA1cv2/view">
